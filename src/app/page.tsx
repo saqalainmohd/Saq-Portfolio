@@ -40,7 +40,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-background font-sans overflow-hidden">
       <HeroHighlight>
-        <div className="relative z-20 h-full w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 px-4 md:px-8" id="home">
+        <div className="relative z-20 h-full w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8 px-4 md:px-8 pt-24" id="home">
           {/* Left Side: Photo */}
           <div className="flex-1 flex justify-center md:justify-start items-end self-end overflow-hidden">
             <div className="relative w-72 h-[350px] md:w-[380px] md:h-[480px] lg:w-[450px] lg:h-[580px] group cursor-pointer">

@@ -138,21 +138,22 @@ export const data = {
     projects: [
         {
             slug: "financial-literacy-study",
-            banner: "",
+            banner: "/images/financial-literacy-banner.jpg",
             icon: "",
-            title: "Study on Financial Literacy",
-            description: "The study on financial literacy among fishing folks in the Ponnani area.",
-            longDescription: "A comprehensive study conducted to understand the financial literacy levels among the fishing community in Ponnani.",
-            techStack: ["Research", "Data Analysis", "Survey"],
+            title: "A Study on Financial Literacy Among Fishing Folk in Ponnani Area",
+            description: "A comprehensive research study examining the financial literacy levels and saving patterns of the fishing community in Ponnani, Malappuram district, Kerala.",
+            longDescription: "This research investigates the financial literacy and savings habits of fishermen in Ponnani, focusing on their understanding of budgeting, saving, banking services, insurance, and investment options. The study reveals that most fishermen save less than 10% of their income due to low and inconsistent earnings, seasonal unemployment, and high expenditure on traditional ceremonies. Using primary data collected through questionnaires from 80 respondents, the study employs SPSS for statistical analysis. Key findings highlight the need for Financial Literacy Centres and structured programs to improve financial planning and economic security among marine fishermen.",
+            techStack: ["Primary Research", "SPSS Analysis", "Survey Design", "Data Collection"],
             features: [
-                "Survey Design",
-                "Data Collection",
-                "Analysis of Financial Habits"
+                "Evaluation of financial literacy levels among fishing community",
+                "Analysis of factors affecting saving patterns",
+                "Study of demographic influences on financial behavior",
+                "Assessment of access to formal financial services"
             ],
             screenshots: [],
-            challenges: "Collecting accurate data from a diverse demographic.",
-            link: "",
-            tags: ["Research", "Finance", "Social Study"]
+            challenges: "Collecting accurate data from a diverse demographic with low education levels and limited financial awareness. The seasonal nature of fishing income and reliance on informal financial systems posed additional research challenges.",
+            link: "https://drive.google.com/file/d/1bPeaSO3_2Uj8sZzlOhjZHnslEoCjlchf/view?usp=sharing",
+            tags: ["Research", "Finance", "Social Study", "Kerala", "Fisheries"]
         }
     ],
     openTo: [

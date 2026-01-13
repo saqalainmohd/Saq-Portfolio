@@ -43,7 +43,7 @@ export const ExperienceSection = ({ experience, careerSnapshot }: ExperienceSect
                 {/* Experience Timeline */}
                 <div className="relative">
                     {/* Timeline line */}
-                    <div className="absolute left-0 md:left-1/2 top-0 bottom-0 w-px bg-neutral-200 dark:bg-neutral-800 transform md:-translate-x-1/2" />
+                    <div className="absolute left-2 md:left-2 top-0 bottom-0 w-px bg-neutral-200 dark:bg-neutral-800" />
 
                     {experience.map((exp, index) => (
                         <motion.div
@@ -52,10 +52,10 @@ export const ExperienceSection = ({ experience, careerSnapshot }: ExperienceSect
                             whileInView={{ opacity: 1, y: 0 }}
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.1 }}
-                            className="relative mb-12 pl-8 md:pl-12"
+                            className="relative mb-12 pl-10 md:pl-12"
                         >
                             {/* Timeline dot */}
-                            <div className="absolute left-0 top-0 w-4 h-4 rounded-full bg-primary border-4 border-background transform -translate-x-1/2" />
+                            <div className="absolute left-0 top-2 w-4 h-4 rounded-full bg-primary border-4 border-background" />
 
                             {/* Card */}
                             <div className="p-6 rounded-2xl bg-neutral-50 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
