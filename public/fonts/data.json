@@ -1,0 +1,87 @@
+{
+    "basic": {
+        "firstName": "Mohammed",
+        "lastName": "Saqalain",
+        "age": 24,
+        "email": "saqalainmohammed@gmail.com",
+        "phone": "9061044684",
+        "address": "Ponnani, Kerala, India",
+        "photos": [
+            "images/hero-profile.png",
+            "images/photo (3).png",
+            "images/photo (1).png"
+        ],
+        "resume": "https://drive.google.com/file/d/1TWxIbLhtVmktAWoghwoaswsXHuljB32E/view?usp=sharing"
+    },
+    "socials": [
+        {
+            "icon": "fa-brands fa-linkedin",
+            "url": "https://www.linkedin.com/in/mohdsaqalain-b4344425a"
+        },
+        {
+            "icon": "fa-duotone fa-solid fa-envelope",
+            "url": "mailto:saqalainmohammed@gmail.com"
+        }
+    ],
+    "about": {
+        "heading": "I'm Mohammed Saqalain, an MBA Graduate.",
+        "description": "As an MBA graduate, I am enthusiastic about working in an environment which encourages me to enhance my professional skills and knowledge appropriately which helps the success and growth of the company and mine as well education.",
+        "tech": [
+            "Microsoft Excel (Pivot Tables)",
+            "Microsoft Word",
+            "Microsoft PowerPoint",
+            "Adobe Lightroom",
+            "Adobe Photoshop",
+            "Tally",
+            "Business English"
+        ],
+        "works": []
+    },
+    "services": [
+        {
+            "icon": "images/services/finance.png",
+            "title": "Financial Analysis"
+        },
+        {
+            "icon": "images/services/marketing.png",
+            "title": "Marketing Strategy"
+        },
+        {
+            "icon": "images/services/accounting.png",
+            "title": "Accounting"
+        },
+        {
+            "icon": "images/services/analysis.png",
+            "title": "Business Analysis"
+        }
+    ],
+    "projects": [
+        {
+            "banner": "",
+            "icon": "",
+            "title": "Study on Financial Literacy",
+            "description": "The study on financial literacy among fishing folks in the Ponnani area.",
+            "link": ""
+        }
+    ],
+    "contact": [
+        {
+            "icon": "fa-duotone fa-solid fa-house",
+            "title": "Location",
+            "description": "Ponnani, Kerala, India",
+            "action": "https://maps.google.com/?q=Ponnani,+Kerala,+India"
+        },
+        {
+            "icon": "fa-duotone fa-solid fa-phone",
+            "title": "Phone",
+            "description": "9061044684",
+            "action": "tel:9061044684"
+        },
+        {
+            "icon": "fa-duotone fa-solid fa-envelope",
+            "title": "Email",
+            "description": "saqalainmohammed@gmail.com",
+            "action": "mailto:saqalainmohammed@gmail.com"
+        }
+    ]
+}
