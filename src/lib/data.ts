@@ -6,7 +6,7 @@ export const data = {
         subtitle: "Enthusiastic MBA graduate in marketing and finance, seeking to enhance professional skills and contribute to company success.",
         age: 24,
         email: "saqalainmohammed@gmail.com",
-        phone: "9061044684",
+        phone: "+91 90610 44684",
         address: "Ponnani, Kerala, India",
         photos: [
             "/images/hero-profile.png",

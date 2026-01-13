@@ -86,6 +86,13 @@ export default function Home() {
                 Contact Me
               </Link>
               <Link
+                href={`tel:${data.basic.phone}`}
+                className="px-8 py-4 rounded-full bg-green-600 text-white font-semibold hover:scale-105 transition-transform flex items-center justify-center gap-2"
+              >
+                <Phone className="h-5 w-5" />
+                Call Me
+              </Link>
+              <Link
                 href={data.basic.resume}
                 target="_blank"
                 className="px-8 py-4 rounded-full border border-neutral-200 dark:border-neutral-800 bg-white/50 dark:bg-black/50 backdrop-blur-sm font-semibold hover:bg-neutral-100 dark:hover:bg-neutral-900 transition-colors"
@@ -244,6 +251,13 @@ export default function Home() {
                     {data.basic.address}
                   </div>
                 </div>
+                <a
+                  href={`tel:${data.basic.phone}`}
+                  className="w-full py-3 rounded-xl bg-green-600 text-white font-semibold flex items-center justify-center gap-2 hover:bg-green-700 transition-colors"
+                >
+                  <Phone className="h-5 w-5" />
+                  Call Now
+                </a>
               </div>
             </FadeIn>
 
